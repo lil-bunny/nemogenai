@@ -1,0 +1,82 @@
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\chrome-playwright-profile" --profile-directory="Profile 1"
+
+
+Use this in windows powershell
+
+
+PS C:\nemogenai> python chromeprofile.py
+
+==== Chrome Profiles Found ====
+
+Profile ID        : Default
+Profile Name      : Person 1
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 1
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 10
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 11
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 12
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 13
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 14
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 15
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 16
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 17
+Profile Name      : Person 3
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 19
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 2
+Profile Name      : Person 2
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 20
+Profile Name      : Your Chrome
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 4
+Profile Name      : Person 4
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 6
+Profile Name      : Person 3
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 7
+Profile Name      : Debdut
+Email (if logged) :
+----------------------------------------
+Profile ID        : Profile 8
+Profile Name      : AI Wallah
+Email (if logged) :
+
+
+
+
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="%LOCALAPPDATA%\Google\Chrome\User Data" --profile-directory="Profile 7"

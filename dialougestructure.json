@@ -1,0 +1,486 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "6c7b2598-dc0d-4b8e-b41c-9cfd778d7de2",
+    "sha256": "0b1f72071784fec29a6b365588a0399eb5919d384875ba8af9f0fbf6296cb411",
+    "created": "2025-11-27T04:21:48.638Z",
+    "duration": 27.730938,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Regulations are catching up. Some countries require clearer trial disclosures and easier cancellations. In The US, consumer protection laws vary by state, but federal rules about unauthorized charges still apply. If you're repeatedly targeted, consider complaining to the FTC or your state attorney general. These filings can spur investigations and sometimes force refunds as long as you've kept evidence.",
+            "confidence": 0.99931335,
+            "words": [
+              {
+                "word": "regulations",
+                "start": 0.39999998,
+                "end": 0.9,
+                "confidence": 0.5067686,
+                "punctuated_word": "Regulations"
+              },
+              {
+                "word": "are",
+                "start": 0.96,
+                "end": 1.28,
+                "confidence": 0.99985695,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "catching",
+                "start": 1.28,
+                "end": 1.5999999,
+                "confidence": 0.9999231,
+                "punctuated_word": "catching"
+              },
+              {
+                "word": "up",
+                "start": 1.5999999,
+                "end": 2.1,
+                "confidence": 0.9983672,
+                "punctuated_word": "up."
+              },
+              {
+                "word": "some",
+                "start": 2.3999999,
+                "end": 2.6399999,
+                "confidence": 0.99989736,
+                "punctuated_word": "Some"
+              },
+              {
+                "word": "countries",
+                "start": 2.6399999,
+                "end": 3.1399999,
+                "confidence": 0.9997795,
+                "punctuated_word": "countries"
+              },
+              {
+                "word": "require",
+                "start": 3.1999998,
+                "end": 3.6799998,
+                "confidence": 0.99967206,
+                "punctuated_word": "require"
+              },
+              {
+                "word": "clearer",
+                "start": 3.6799998,
+                "end": 4.18,
+                "confidence": 0.99729174,
+                "punctuated_word": "clearer"
+              },
+              {
+                "word": "trial",
+                "start": 4.24,
+                "end": 4.72,
+                "confidence": 0.9983387,
+                "punctuated_word": "trial"
+              },
+              {
+                "word": "disclosures",
+                "start": 4.72,
+                "end": 5.22,
+                "confidence": 0.9994747,
+                "punctuated_word": "disclosures"
+              },
+              {
+                "word": "and",
+                "start": 5.2799997,
+                "end": 5.68,
+                "confidence": 0.9967861,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "easier",
+                "start": 5.68,
+                "end": 6.08,
+                "confidence": 0.99988174,
+                "punctuated_word": "easier"
+              },
+              {
+                "word": "cancellations",
+                "start": 6.08,
+                "end": 6.58,
+                "confidence": 0.9927399,
+                "punctuated_word": "cancellations."
+              },
+              {
+                "word": "in",
+                "start": 7.2799997,
+                "end": 7.44,
+                "confidence": 0.9997625,
+                "punctuated_word": "In"
+              },
+              {
+                "word": "the",
+                "start": 7.44,
+                "end": 7.68,
+                "confidence": 0.99985754,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "us",
+                "start": 7.68,
+                "end": 8.18,
+                "confidence": 0.9965519,
+                "punctuated_word": "US,"
+              },
+              {
+                "word": "consumer",
+                "start": 8.4,
+                "end": 8.88,
+                "confidence": 0.99493223,
+                "punctuated_word": "consumer"
+              },
+              {
+                "word": "protection",
+                "start": 8.88,
+                "end": 9.38,
+                "confidence": 0.99915636,
+                "punctuated_word": "protection"
+              },
+              {
+                "word": "laws",
+                "start": 9.44,
+                "end": 9.84,
+                "confidence": 0.9990707,
+                "punctuated_word": "laws"
+              },
+              {
+                "word": "vary",
+                "start": 9.84,
+                "end": 10.16,
+                "confidence": 0.9990633,
+                "punctuated_word": "vary"
+              },
+              {
+                "word": "by",
+                "start": 10.16,
+                "end": 10.48,
+                "confidence": 0.99981946,
+                "punctuated_word": "by"
+              },
+              {
+                "word": "state",
+                "start": 10.48,
+                "end": 10.98,
+                "confidence": 0.9707949,
+                "punctuated_word": "state,"
+              },
+              {
+                "word": "but",
+                "start": 11.04,
+                "end": 11.36,
+                "confidence": 0.9998184,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "federal",
+                "start": 11.36,
+                "end": 11.84,
+                "confidence": 0.98823035,
+                "punctuated_word": "federal"
+              },
+              {
+                "word": "rules",
+                "start": 11.84,
+                "end": 12.16,
+                "confidence": 0.99950445,
+                "punctuated_word": "rules"
+              },
+              {
+                "word": "about",
+                "start": 12.16,
+                "end": 12.48,
+                "confidence": 0.9995396,
+                "punctuated_word": "about"
+              },
+              {
+                "word": "unauthorized",
+                "start": 12.48,
+                "end": 12.98,
+                "confidence": 0.99928755,
+                "punctuated_word": "unauthorized"
+              },
+              {
+                "word": "charges",
+                "start": 13.2,
+                "end": 13.7,
+                "confidence": 0.99966276,
+                "punctuated_word": "charges"
+              },
+              {
+                "word": "still",
+                "start": 13.84,
+                "end": 14.16,
+                "confidence": 0.99968755,
+                "punctuated_word": "still"
+              },
+              {
+                "word": "apply",
+                "start": 14.16,
+                "end": 14.66,
+                "confidence": 0.99991685,
+                "punctuated_word": "apply."
+              },
+              {
+                "word": "if",
+                "start": 15.065,
+                "end": 15.224999,
+                "confidence": 0.9997445,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "you're",
+                "start": 15.224999,
+                "end": 15.545,
+                "confidence": 0.9943563,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "repeatedly",
+                "start": 15.545,
+                "end": 16.045,
+                "confidence": 0.9999602,
+                "punctuated_word": "repeatedly"
+              },
+              {
+                "word": "targeted",
+                "start": 16.105,
+                "end": 16.605,
+                "confidence": 0.99928385,
+                "punctuated_word": "targeted,"
+              },
+              {
+                "word": "consider",
+                "start": 16.904999,
+                "end": 17.385,
+                "confidence": 0.99931335,
+                "punctuated_word": "consider"
+              },
+              {
+                "word": "complaining",
+                "start": 17.385,
+                "end": 17.865,
+                "confidence": 0.99959093,
+                "punctuated_word": "complaining"
+              },
+              {
+                "word": "to",
+                "start": 17.865,
+                "end": 18.025,
+                "confidence": 0.9998609,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "the",
+                "start": 18.025,
+                "end": 18.265,
+                "confidence": 0.9998198,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "ftc",
+                "start": 18.265,
+                "end": 18.765,
+                "confidence": 0.998602,
+                "punctuated_word": "FTC"
+              },
+              {
+                "word": "or",
+                "start": 18.985,
+                "end": 19.225,
+                "confidence": 0.99418396,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "your",
+                "start": 19.225,
+                "end": 19.465,
+                "confidence": 0.9995685,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "state",
+                "start": 19.465,
+                "end": 19.785,
+                "confidence": 0.9900921,
+                "punctuated_word": "state"
+              },
+              {
+                "word": "attorney",
+                "start": 19.785,
+                "end": 20.185,
+                "confidence": 0.9979475,
+                "punctuated_word": "attorney"
+              },
+              {
+                "word": "general",
+                "start": 20.185,
+                "end": 20.685,
+                "confidence": 0.9991281,
+                "punctuated_word": "general."
+              },
+              {
+                "word": "these",
+                "start": 21.145,
+                "end": 21.465,
+                "confidence": 0.99979836,
+                "punctuated_word": "These"
+              },
+              {
+                "word": "filings",
+                "start": 21.465,
+                "end": 21.865,
+                "confidence": 0.99828315,
+                "punctuated_word": "filings"
+              },
+              {
+                "word": "can",
+                "start": 21.865,
+                "end": 22.185,
+                "confidence": 0.9985441,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "spur",
+                "start": 22.185,
+                "end": 22.585,
+                "confidence": 0.9994093,
+                "punctuated_word": "spur"
+              },
+              {
+                "word": "investigations",
+                "start": 22.585,
+                "end": 23.085,
+                "confidence": 0.9993837,
+                "punctuated_word": "investigations"
+              },
+              {
+                "word": "and",
+                "start": 23.625,
+                "end": 23.865,
+                "confidence": 0.95561856,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "sometimes",
+                "start": 23.865,
+                "end": 24.365,
+                "confidence": 0.95842946,
+                "punctuated_word": "sometimes"
+              },
+              {
+                "word": "force",
+                "start": 24.585,
+                "end": 24.985,
+                "confidence": 0.9760957,
+                "punctuated_word": "force"
+              },
+              {
+                "word": "refunds",
+                "start": 24.985,
+                "end": 25.485,
+                "confidence": 0.9993383,
+                "punctuated_word": "refunds"
+              },
+              {
+                "word": "as",
+                "start": 25.865,
+                "end": 26.105,
+                "confidence": 0.8484678,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "long",
+                "start": 26.105,
+                "end": 26.345,
+                "confidence": 0.9999511,
+                "punctuated_word": "long"
+              },
+              {
+                "word": "as",
+                "start": 26.345,
+                "end": 26.425,
+                "confidence": 0.9992748,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "you've",
+                "start": 26.425,
+                "end": 26.665,
+                "confidence": 0.9995713,
+                "punctuated_word": "you've"
+              },
+              {
+                "word": "kept",
+                "start": 26.665,
+                "end": 26.904999,
+                "confidence": 0.9999546,
+                "punctuated_word": "kept"
+              },
+              {
+                "word": "evidence",
+                "start": 26.904999,
+                "end": 27.404999,
+                "confidence": 0.9961667,
+                "punctuated_word": "evidence."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nRegulations are catching up. Some countries require clearer trial disclosures and easier cancellations. In The US, consumer protection laws vary by state, but federal rules about unauthorized charges still apply. If you're repeatedly targeted, consider complaining to the FTC or your state attorney general. These filings can spur investigations and sometimes force refunds as long as you've kept evidence.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Regulations are catching up.",
+                      "start": 0.39999998,
+                      "end": 2.1
+                    },
+                    {
+                      "text": "Some countries require clearer trial disclosures and easier cancellations.",
+                      "start": 2.3999999,
+                      "end": 6.58
+                    },
+                    {
+                      "text": "In The US, consumer protection laws vary by state, but federal rules about unauthorized charges still apply.",
+                      "start": 7.2799997,
+                      "end": 14.66
+                    },
+                    {
+                      "text": "If you're repeatedly targeted, consider complaining to the FTC or your state attorney general.",
+                      "start": 15.065,
+                      "end": 20.685
+                    },
+                    {
+                      "text": "These filings can spur investigations and sometimes force refunds as long as you've kept evidence.",
+                      "start": 21.145,
+                      "end": 27.404999
+                    }
+                  ],
+                  "num_words": 59,
+                  "start": 0.39999998,
+                  "end": 27.404999
+                }
+              ]
+            }
+          }
+        ],
+        "detected_language": "en",
+        "language_confidence": 0.99198663
+      }
+    ]
+  }
+}

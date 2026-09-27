@@ -1,0 +1,46 @@
+Launching Google AI Studio Automation… 72
+[LOG] Setting Aspect Ratio 16:9...
+[LOG] Aspect Ratio set 
+ROBOLOX 3D style: cozy sunrise bedroom scene, a blocky avatar sitting on the bed pouring steaming coffee into a colorful mug on a bedside table, warm golden sunlight streaming through blinds, soft lens flare and tiny particle dust, vibrant saturated colors, high-detail blocky textures, close-up 3/4 camera angle, expression of calm relief as if the world just turned back on, cinematic shallow depth of field 0 len72
+
+=== Prompt 0 ===
+[LOG] Clicking RUN/REGENERATE…
+[LOG] Stop didn’t appear (maybe fast response)
+[WARN] Stop didn’t hide timely
+[LOG] waiting until model ready (Run/Regenerate)…
+[LOG] model ready -> button back!
+[LOG] Waiting for generated image…
+Traceback (most recent call last):
+  File "C:\nemogenai\app.py", line 409, in <module>
+    asyncio.run(googleaistudio())
+  File "C:\Users\Debdut\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Debdut\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Debdut\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\nemogenai\app.py", line 249, in googleaistudio
+    await send_prompt(page, prompt['image'], i)
+  File "C:\nemogenai\app.py", line 53, in send_prompt
+    await page.wait_for_selector(IMAGE_LOCATOR, timeout=9000000)
+  File "C:\Users\Debdut\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\async_api\_generated.py", line 8181, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Debdut\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 423, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Debdut\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\Debdut\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Debdut\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("img.loaded-image") to be visible
+
+
+app.py finished with exit code 1
